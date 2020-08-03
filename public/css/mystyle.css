@@ -1,0 +1,117 @@
+ *{
+	margin: 0;
+	padding: 0
+}
+/*ul{
+	position: fixed;
+}
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: black;
+    border-bottom: 1px solid #ddd;
+}
+
+li {
+    float: right;
+}
+
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-align: center;
+    
+}
+li a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+ */
+body{
+	font-family: bookman old style;
+}
+.navbar-brand{
+  font-family: cursive;
+}
+.nav-link:hover{
+	text-decoration: none;
+}
+ header {
+  padding: 150px 0 100px;
+}
+
+section {
+  min-height: 600px;
+  padding: 50px 0 50px;
+}
+.navbar{
+	 border-bottom: 1px solid #ddd;
+}
+.navbar .nav-link {
+  border-radius: 8px;
+  margin: 0 8px;
+  padding: 8px;
+}
+
+@media (max-width: 992px) {
+  .navbar .nav-link {
+    margin: 0;
+    padding: 8px;
+  }
+}
+
+.navbar .nav-link.active {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.user-img{
+	width: 55px;
+	height: 55px;
+	border-radius: 100px;
+	padding: 5px;
+}
+.recent-story{
+	position: fixed;
+	padding: auto;
+	width: 300px;
+	height: 50vh;
+	background: white;
+	top: 100px;
+	overflow-y: auto;
+	/* overflow-block: ; */
+}
+
+ul li{
+  list-style-type: none;
+}
+ul li a{
+  color: black;
+  font-family: bookman old style;
+}
+.add-post-btn{
+  position: fixed;
+  top: 600px;
+  right: 50px;
+}
+input[type="file"]{
+    display: none;
+}
+.posted-img{
+  width: 200px;
+  height: 220px;
+  opacity: 0.8;
+}
+.posted-img:hover{
+box-sizing: border-box;
+box-shadow: 1px 1px 2px dodgerblue;
+transition: 0.35s ease-in;
+cursor: pointer;
+opacity: 0.9;
+}
